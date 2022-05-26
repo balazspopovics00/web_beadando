@@ -1,0 +1,11 @@
+.header{
+    background: #000000d0;
+}
+
+.tableDiv{
+    padding: 0.5em;
+}
+
+.tableBodyDiv{
+    background-color: rgba(110,110,110 , .7);
+}

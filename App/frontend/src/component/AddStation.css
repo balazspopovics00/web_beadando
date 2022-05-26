@@ -1,0 +1,8 @@
+.formDiv{
+    margin: auto;
+    width: 38%;
+    max-width: 250px;
+    border: 5px solid #ffffff80;
+    padding: 10px;
+    background-color: #ffffff50;
+}
