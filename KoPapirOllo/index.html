@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+   <link rel="stylesheet" href="style.css" type="text/css" >
+
+   <title>Kő, papír, olló</title>
+
+   <script src="main.js"></script>
+
+</head>
+<body>
+    <h1>
+        Kő, papír, olló
+    </h1>    
+    <h1 class = "leiras" > Játékhoz kattints az egyik szimbólumra!</h1>
+    
+    <div class="eredmeny">
+        <p style='display:inline'>Nyert:</p>
+        <p id='NyertKör' style='display:inline'>0</p>
+
+    </div>
+
+    <div class="eredmeny">
+        <p style='display:inline'>Döntetlen:</p>
+        <p id='DöntetlenKör' style='display:inline'>0</p>
+    </div>
+
+    <div class="eredmeny">
+        <p style='display:inline'>Vesztett:</p>
+        <p id='VesztettKör' style='display:inline'>0</p>
+    </div>
+
+    <div class="center">
+        <img  src="ko.png" id="ko" onclick="Ko()" class="size">
+        <img src="papir.png" id="papir" onclick="Papir()" class="size">
+        <img src="ollo.png" id="ollo" onclick="Ollo()" class="size">
+    </div>
+
+    <h2 id = eredmenySzoveg class="center eredmeny"></h2>
+    
+
+    <div class="center">
+        <img id="veletlenKep" class="size" style="visibility: hidden">
+    </div>
+
+    <br>
+
+    <div>
+        <div class="button" id="ujra" onclick="ujra()">Új játék!</div>
+    </div>
+</body>
+</html>

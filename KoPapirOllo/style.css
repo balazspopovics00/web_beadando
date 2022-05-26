@@ -1,0 +1,45 @@
+h1{
+    color:wheat;
+    text-align: center;
+}
+
+body{
+    background-image: url("hatter1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.eredmeny{
+    color:yellowgreen;
+    font-size:30px;
+    font-weight: bolder;
+    line-height: 150%;
+}
+
+.button{
+    position: absolute;
+    left:46%;
+    
+    font-size: 25px;
+    background-color: whitesmoke;
+    
+    padding: 8px 10px;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: royalblue;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+.size{
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+}
+
